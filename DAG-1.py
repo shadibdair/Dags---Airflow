@@ -20,6 +20,8 @@ dag = DAG(dag_id='DAG-1', default_args=default_args, catchup=False, schedule_int
 
 # Step -4
 # Define tasks
+start = DummyOperator(task_id='start', dag=dag)
+end = DummyOperator(task_id='end', dag=dag)
 
 # Step -5
 # Define dependecies
