@@ -18,7 +18,8 @@ default_args = {
 # Instantiate the DAG
 dag = DAG(dag_id='DAG-1', default_args=default_args, catchup=False, schedule_interval='@once')
 
-
+# Step -4
 # Define tasks
 
+# Step -5
 # Define dependecies
