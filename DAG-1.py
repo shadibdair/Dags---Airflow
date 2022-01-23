@@ -25,3 +25,4 @@ end = DummyOperator(task_id='end', dag=dag)
 
 # Step -5
 # Define dependecies
+start >> end
